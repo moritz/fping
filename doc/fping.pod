@@ -38,6 +38,8 @@ Restrict name resolution and IPs to IPv6 addresses.
 
 Show systems that are alive.
 
+Not compatible with option B<--count> / B<-c>.
+
 =item B<-A>, B<--addr>
 
 Display targets by address rather than DNS name. Combined with -d, the output
@@ -237,6 +239,8 @@ Ignored (for compatibility with fping 2.4).
 =item B<-u>, B<--unreach>
 
 Show targets that are unreachable.
+
+Not compatible with option B<--count> / B<-c>.
 
 =item B<-v>, B<--version>
 
